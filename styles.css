@@ -1,6 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
 body {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-x :hidden;
 }
 
 .column {
@@ -36,7 +45,7 @@ li {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 5%;
-    gap: 30px;
+    gap: 100px;
     padding-top: 10%;
     padding-bottom: 10%;
 
@@ -75,6 +84,7 @@ h1 {
 .right > p, .left > p {
     color: #E5E7EB;
     font-size: 18PX;
+    padding-bottom: 2%;
 }
 
 #two {
@@ -89,6 +99,7 @@ h3 {
     align-self: center;
     font-weight: 900;
     font-size: 25px;
+    padding-top: 2%;
 }
 
 #signup {
